@@ -3,6 +3,7 @@
     --titly-text-color: #212121;
     --accent-color: #2196F3;
     --whity-color: #ffffff; 
+    --background-color: #F5F4FA;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     font-family: Roboto, sans-serif; 
     font-size: 14px;
     letter-spacing: 0.03em;
+    background-color: var(--whity-color);
 }
 
 /* Header */
@@ -57,6 +59,10 @@ body {
 
 /* Hero */
 
+.hero {
+    background-color: #2F303A;
+}
+
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -86,7 +92,7 @@ h2 {
     line-height: 1.16;
 }
 
-.features-list li {
+.features-list {
     list-style: none;
 }
 
@@ -106,13 +112,21 @@ h2 {
 
 /* About */
 
-.about-list li {
+.about-list {
     list-style: none;
 }
 
 /* Team */
 
-.team-list li {
+.team {
+    background-color: var(--background-color)
+}
+
+.team-member {
+    background-color: var(--whity-color);
+}
+
+.team-list {
     list-style: none;
 }
 
