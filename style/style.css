@@ -9,7 +9,7 @@ body {
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif; 
     font-size: 14px;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 /* Header */
@@ -19,7 +19,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 3%;
     text-align: left;
 
     text-decoration: none;
@@ -42,7 +41,7 @@ body {
     font-size: 14px;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--titly-text-color);
 }
@@ -52,13 +51,17 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .current {
+    color: var(--accent-color);
+}
+
 /* Hero */
 
 .hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
@@ -66,11 +69,12 @@ body {
     cursor: pointer;
     color: var(--whity-color);
     background-color: var(--accent-color);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     text-align: center;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
 
 /* Features */
@@ -164,11 +168,12 @@ h2 {
 
 .portfolio .radio-botton {
     cursor: pointer;
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--titly-text-color);
     background-color: #F5F4FA;
 }
@@ -179,6 +184,7 @@ h2 {
     background-color: var(--accent-color);
     color: var(--whity-color)
 }
+
 
 .portfolio-list {
     list-style: none;
@@ -192,7 +198,7 @@ h2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
     color: var(--titly-text-color)
 }
 
@@ -200,6 +206,6 @@ h2 {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.87;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
