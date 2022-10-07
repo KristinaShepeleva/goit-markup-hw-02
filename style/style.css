@@ -4,6 +4,8 @@
     --accent-color: #2196F3;
     --whity-color: #ffffff; 
     --background-color: #F5F4FA;
+    --background-dark: #2F303A;
+    --black: #000000;
 }
 
 body {
@@ -31,7 +33,7 @@ body {
 }
 
 .logo .logo-second {
-    color: #000000;
+    color: var(--black);
 }
 
 .site-nav li {
@@ -60,7 +62,7 @@ body {
 /* Hero */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-dark);
 }
 
 .hero-title {
@@ -69,6 +71,7 @@ body {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: var(--whity-color);
 }
 
 .button {
@@ -100,8 +103,9 @@ h2 {
     font-weight: 700;
     line-height: 1.14;
     text-align: left;
+    font-size: 14px;
 
-    color: #212121;
+    color: var(--titly-text-color);
 }
 
 .features-list .text {
@@ -145,7 +149,7 @@ h2 {
 /* Footer */
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--background-dark);
 }
 
 .address li {
@@ -189,16 +193,15 @@ h2 {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--titly-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--background-color)
 }
 
 .portfolio .radio-botton:active,
-.portfolio .radio-botton:hover
+.portfolio .radio-botton:hover,
 .portfolio .radio-botton:focus {
     background-color: var(--accent-color);
     color: var(--whity-color)
 }
-
 
 .portfolio-list {
     list-style: none;
